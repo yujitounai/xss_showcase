@@ -1,4 +1,4 @@
-FROM php:7.0-apache
+FROM php:7.3-apache
 
 #ファイルをコピー
 COPY config/php.ini /usr/local/etc/php/
