@@ -17,7 +17,7 @@ XSS showcase 028 UAE<br>
 			$("#save-logo").click(function(){
 				isSavedButton = true;
 				//var cropArea = crop.getCropCoords();
-				parent.location.replace("/Action.php?action=cropImage&sReason=marketing_box&sRedirectTo=<?php echo htmlspecialchars($_GET['sRedirectTo'])?>&originalfile=<?php echo htmlspecialchars($_GET['originalfile'])?>&file=<?php echo htmlspecialchars($_GET['imgurl'])?>");
+				parent.location.replace("/xss-showcase-028.php?action=cropImage&sReason=marketing_box&sRedirectTo=<?php echo htmlspecialchars($_GET['sRedirectTo'])?>&originalfile=<?php echo htmlspecialchars($_GET['originalfile'])?>&file=<?php echo htmlspecialchars($_GET['imgurl'])?>");
 				})
 				$("#cancel").click(function(){
 					self.parent.tb_remove();
