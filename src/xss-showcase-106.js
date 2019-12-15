@@ -1,0 +1,1 @@
+setTimeout(location.hash.substring(1), 1000);
